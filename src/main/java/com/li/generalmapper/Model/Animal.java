@@ -1,5 +1,7 @@
 package com.li.generalmapper.Model;
 
+import javax.persistence.Id;
+
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @NoArgsConstructor
 public class Animal {
 
+    @Id
     String type;
 
     String sex;
